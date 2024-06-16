@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+#nam{
+    border: 1px solid black;
+    background-image: url('brick.jpg');
+    animation: mymove infinite;
+
+}
+@keyframes mymove{
+    50%{background-position-x: center;}
+}
+  
+nav{
+    color: aliceblue;
+    background-color: black;
+    padding: 20px;
+
+
+
+}
+audio{
+    text-align: center;
+}
+
+
+a:visited{
+    color:rgb(121, 16, 34);
+}
+h1,ul,li{
+    display: inline;
+    
+}
+ul{
+    margin-left: 50%;
+    color: pink;
+    cursor: pointer;
+}
+li:hover{
+    background-color: green;
+    color: yellow;
+    
+}
+input{
+    width: 50%;
+    padding: 12px;
+    margin:40px
+
+}
+.search{
+    text-align: center;
+    
+    
+}
+.box{
+    border-bottom: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 200px;
+    display:inline-block;
+    color: rgb(21, 7, 7);
+    background-color: rgb(130, 227, 238);
+    
+    margin:4px;
+    text-align: center;
+    
+    
+
+}
+
+img{
+    width:200px;
+    height:200px;
+    
+    
+}
+.products{
+    text-align: center;
+    margin:40px ;
+    
+}
+.aboutus{
+    border-bottom: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+    display:inline-block;
+    color: rgb(21, 7, 7);
+    background-color: rgb(221, 234, 221);
+    
+    margin:4px;
+    text-align: center;
+}
+.ram{
+    text-align: center;
+}
+.box:hover{
+    background-color: rgb(192, 202, 48);
+    color:black;
+}
+.contact{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:20px;
+}
+#nam{
+    padding:20px;
+    text-align: center;
+}
+.aboutus:hover{
+    background-color: rgb(196, 255, 221);
+    color: black;
+}
